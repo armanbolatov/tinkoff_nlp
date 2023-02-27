@@ -74,7 +74,7 @@ def run_test(
     """
     if checkpoint == "bigscience/bloom-petals":
         API_URL = "https://api-inference.huggingface.co/models/" + checkpoint
-        headers = {"Authorization": "Bearer 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"}
+        headers = {"Authorization": "Bearer <hf_token>"}
         def query(payload):
             response = requests.post(API_URL, headers=headers, json=payload)
             return response.json()
