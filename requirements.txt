@@ -1,0 +1,4 @@
+transformers
+huggingface-hub
+argparse
+tqdm
